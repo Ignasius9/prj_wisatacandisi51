@@ -3,14 +3,14 @@ import 'package:prj_wisatacandisi51/data/candi_data.dart';
 import 'package:prj_wisatacandisi51/models/candi.dart';
 import 'package:prj_wisatacandisi51/widgets/item_screen.dart';
 
-class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
 
   @override
-  State<MyWidget> createState() => _MyWidgetState();
+  State<HomeScreen> createState() => _MyWidgetState();
 }
 
-class _MyWidgetState extends State<MyWidget> {
+class _MyWidgetState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
